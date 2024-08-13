@@ -37,6 +37,7 @@ h2 {
     line-height: 1.6; /* Improved readability */
     font-size: 1.1em; /* Slightly larger font size */
     color: #555; /* Slightly lighter color for paragraphs */
+    
 }
 
 .specifications, .key-features, .how-it-works {
@@ -72,3 +73,6 @@ h2 {
     color: #555; /* Slightly lighter color for paragraphs */
 }
 
+.para{
+    text-align: justify;
+}

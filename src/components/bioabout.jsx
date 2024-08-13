@@ -8,8 +8,8 @@ export const Bioabout = () => {
       <h2> Biocalculus Holter Monitor and ELR Device</h2>
 
       <section className="bio-intro">
-        <p>
-          Discover the advanced Biocalculus Holter Monitor and ELR Device, designed to provide continuous heart monitoring anywhere, anytime. Our innovative device and its accompanying mobile application are perfect for individuals who need regular monitoring for non-lethal cardiac arrhythmias.
+        <p className='para'>
+        Discover the advanced Biocalculus Holter Monitor and ELR (External Cardiac Loop Recorder) Device, specifically designed to provide continuous heart monitoring anywhere, anytime. Our innovative device, along with its user-friendly mobile application, is perfect for individuals who need regular monitoring for non-lethal cardiac arrhythmias. Whether you're at home or on the go, you can trust our technology to keep track of your heart's health.
         </p>
       </section>
 
@@ -45,12 +45,13 @@ export const Bioabout = () => {
 
       <section className="how-it-works">
         <h2>How It Works</h2>
-        <p>
-          The Biocalculus Holter Monitor and ELR Device is a portable system designed to monitor the electrical activity of the heart over extended periods. Using small adhesive electrodes attached to the chest, the device records continuous electrocardiogram (ECG) data, which is then analyzed to detect any irregular heart rhythms or other cardiac issues.
+        <p className='para'>
+        The Biocalculus Holter Monitor and ELR Device is a portable system created to monitor the electrical activity of the heart over extended periods. Using small adhesive electrodes attached to the chest, the device records continuous electrocardiography (ECG/EKG) data, which is then analyzed to detect any irregular heart rhythms or other cardiac issues.
         </p>
-        <p>
-          Our device ensures precise data collection with its advanced ELR technology, making it an invaluable tool for individuals needing ongoing cardiac monitoring.
+        <p className='para'>
+          Our device ensures precise data collection with its advanced ELR technology, making it an invaluable tool for individuals requiring ongoing cardiac monitoring. For those looking to book a Holter Monitor test, or need more information on Holter Monitoring costs, we provide services across India, including the convenience of testing at your home. To contact for Holter test pricing or to find the nearest locations, reach out to us today.
         </p>
+        
       </section>
     </div>
   );

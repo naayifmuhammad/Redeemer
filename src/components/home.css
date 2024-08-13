@@ -39,7 +39,7 @@
   
   .home-left p {
     font-size: 18px;
-    line-height: 1.6;
+    font-size: 1.1em;
     color: #333;
   }
   
@@ -71,5 +71,10 @@
   .book-now-btn:hover {
     background-color: rgba(247, 54, 54, 0.8);
     color: white;
+  }
+
+  .para {
+    text-align: justify;
+    
   }
   

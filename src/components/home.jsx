@@ -8,9 +8,9 @@ export const Home = () => {
       <div className="home-left">
         <h1 className='text-left'>Biocalculus</h1>
         <h2>Biocalculus Holter Monitor Device /ELR Device</h2>
-        <p>
+        <p className='para'>
         
-        Monitor Your Heart Anywhere, Anytime with Our Advanced ELR and Holter Monitor Device. The Biocalculus and its mobile application are intended to continuously measure, record and periodically transmit physiological data. The system is indicated for those patients who require monitoring for the detection of non- lethal cardiac arrhythmias. Device will monitor, derive and display on Smartphone application parameters which Biocalculus monitors.
+        Monitor Your Heart Anywhere, Anytime with Our Advanced ELR and Holter Monitor Device. The Biocalculus Holter Monitor and its mobile application are designed to continuously measure, record, and periodically transmit physiological data. <br/> The system is ideal for patients who require monitoring for the detection of non-lethal cardiac arrhythmias. This Holter monitor is a type of portable electrocardiogram (ECG), providing real-time monitoring of your heart's activity directly to your smartphone.
         </p>
         <a href="#contact" class="book-now-btn">Book Now</a>
       </div>
