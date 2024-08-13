@@ -43,8 +43,8 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get a Quote</h2>
-                <p>
+                <h2>Get a Quote/Book an Appointment</h2>
+                <p className="contact-para">
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
                 </p>
@@ -72,7 +72,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Email or Mobile"
                         required
                         onChange={handleChange}
                       />
@@ -102,7 +102,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              <p>
+              <p className="contact-para">
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
@@ -110,7 +110,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p>
+              <p className="contact-para">
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
@@ -118,7 +118,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p>
+              <p className="contact-para">
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}

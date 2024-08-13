@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            With over 10 years of experience in the software industry, we bring a wealth of knowledge and expertise to every project. Our dedicated team is committed to delivering high-quality solutions tailored to your needs, ensuring success and satisfaction with every engagement.
+            With over 20 years of experience in the industry, we bring a wealth of knowledge and expertise to every project. Our dedicated team is committed to delivering high-quality solutions tailored to your needs, ensuring success and satisfaction with every engagement.
           </p>
         </div>
         <div className="row">
