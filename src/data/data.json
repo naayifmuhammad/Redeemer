@@ -1,7 +1,7 @@
 {
   
   "About": {
-    "paragraph": "We are a leading software development company with over 10 years of experience, dedicated to creating innovative and effective solutions tailored to your needs. Our expert team specializes in custom software, web and mobile applications, and digital marketing, ensuring high-quality results that drive success.",
+    "paragraph": "We are a leading software development company with over 20 years of experience, dedicated to creating innovative and effective solutions tailored to your needs. Our expert team specializes in custom software, web and mobile applications, and digital marketing, ensuring high-quality results that drive success.",
     "paragraph1":  "Our commitment to excellence is reflected in our transparent communication and collaborative approach. We work closely with you to understand your goals and deliver solutions that exceed expectations, ensuring your projects are completed on time and within budget.",
     "Why": [
       "Decade of Expertise",
@@ -97,34 +97,54 @@
 ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.png",
+      "img": "img/testimonials/02.png",
       "text": "\"Work Review.\"",
       "name": "Paris Perfume - UAE"
     },
     {
-      "img": "img/testimonials/02.jfif",
+      "img": "img/testimonials/01.png",
       "text": "\"Work Review.\"",
       "name": "GK Motors - UAE"
     },
     {
-      "img": "img/testimonials/03.jfif",
+      "img": "img/testimonials/04.png",
       "text": "\"Work Review.\"",
       "name": "MK Motors - UAE"
     },
     {
-      "img": "img/testimonials/04.svg",
+      "img": "img/testimonials/08.png",
       "text": "\"Work Review.\"",
       "name": "Kerala Congress"
     },
     {
-      "img": "img/testimonials/05.png",
+      "img": "img/testimonials/07.png",
       "text": "\"Work Review.\"",
       "name": "Grace Waves Technical Services LLC - UAE"
     },
     {
-      "img": "img/testimonials/06.jfif",
+      "img": "img/testimonials/03.png",
       "text": "\"Work Review.\"",
       "name": "The Law Trust"
+    },
+    {
+      "img": "img/testimonials/06.png",
+      "text": "\"Work Review.\"",
+      "name": "Daya Life Science"
+    },
+    {
+      "img": "img/testimonials/10.png",
+      "text": "\"Work Review.\"",
+      "name": "Hi-Tech Medicare"
+    },
+    {
+      "img": "img/testimonials/09.png",
+      "text": "\"Work Review.\"",
+      "name": "Al-Neem"
+    },
+    {
+      "img": "img/testimonials/05.png",
+      "text": "\"Work Review.\"",
+      "name": "Focus Direct - UAE"
     }
   ],
   "Team": [
@@ -170,7 +190,7 @@
     },
     {
         "icon": "fa fa-check-circle",
-        "title": "Quality & Reliability",
+        "title": "Quality | Reliability",
         "text": "Thorough testing to ensure your products meet high standards of reliability."
     },
     {
