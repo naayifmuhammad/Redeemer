@@ -18,8 +18,9 @@ export const Navigation = (props) => {
           <span className="icon-bar"></span>
         </button>
         <a className="brand page-scroll" href="/">
-          <span className="navbar-brand-text">Redeemer</span>
-          <span className="navbar-subtext">Technologies Pvt Ltd</span>
+        <img className="redeemer-navbar-logo" src='img/redeemer-technologies-logo.svg' 
+                     width="50" height="50" 
+                     alt="Redeemer Technologies Pvt Ltd" />
         </a>
       </div>
 

@@ -51,6 +51,9 @@ textarea {
     width: 600px;
 } */
 
+
+
+
 .navbar-brand-text {
     font-family: 'Times-new-roman', sans-serif; /* Replace with your custom font */
     font-size: 30px; /* Adjust size as needed */
@@ -79,6 +82,15 @@ textarea {
     text-align: justify;
 }
 
+.redeemer-navbar-logo{
+    height: 60px;
+    width: auto;
+}
 .contact-para {
     color: aliceblue;
+}
+
+.redeemer-navbar-logo{
+    height: 60px;
+    width: auto;
 }

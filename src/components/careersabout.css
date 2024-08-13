@@ -1,27 +1,32 @@
+.career-content-container{
+  margin: 100px 100px 0px 100px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for readability */
+  color: #343a40; /* Dark gray for professional look */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
 
+.fade-in{
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out; /* Transition for both opacity and position */
+}
 
-.careers-about-container {
-    font-family: Arial, sans-serif;
-    margin-top: 100px;
-    padding: 20px;
-    color: #333;
-  }
-  
-  .section {
-    margin-bottom: 30px;
-  }
-  
-  .section h2 {
-    font-size: 26px;
-    margin-bottom: 15px;
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
-  }
-  
-  .section p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
-  
+.section {
+  margin-top: 50px;
+}
+
+.fade-in.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
+
+.section-text-area h2{
+  color: black;
+  font-size: 45px;
+}
+.section-text-area p{
+  color: black;
+  font-size: 20px;
+}
