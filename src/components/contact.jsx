@@ -8,6 +8,7 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -15,29 +16,30 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
       .sendForm("service_0f1kwhp", "template_bmenrbr", e.target, "4407riNHulQj95uxD")
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Message sent successfully!");
           clearState();
+          window.location.reload(); // Refreshes the page
         },
         (error) => {
+          alert("Could not send the message at the moment. Please contact us via email or phone.");
           console.log(error.text);
         }
       );
   };
+
   return (
     <div>
+      {/* Your form structure remains the same */}
       <div id="contact" className="footer">
         <div className="container">
           <div className="col-md-8">
@@ -155,9 +157,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 Redeemer Technologies.{" "}
-            <a href="https://redeemertechnologies.com/" rel="nofollow">
-            
-            </a>
+            <a href="https://redeemertechnologies.com/" rel="nofollow"></a>
           </p>
         </div>
       </div>
