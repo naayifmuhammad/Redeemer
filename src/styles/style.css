@@ -9,6 +9,7 @@
 
 .buttons:hover {
     background-color: darkred; /* Optional: change background color on hover */
+    color: aliceblue;
 }
 
 /* input {
