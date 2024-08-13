@@ -1,16 +1,32 @@
 .buttons {
     background-color: crimson;
     color: aliceblue;
-    padding: 10px 20px; /* Adjust padding as needed */
-    border: none; /* Remove default borders */
-    border-radius: 20px 0 20px 0; /* Round top-left and bottom-right corners */
-    cursor: pointer; /* Optional: changes the cursor to a pointer on hover */
+    padding: 12px 24px; /* Slightly increased padding for better touch targets */
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    font-size: 1.1em; /* Slightly larger font for better readability */
+    font-weight: bold; /* Makes the text stand out */
+    /* background: linear-gradient(135deg, crimson, rgba(139, 0, 0, 0.358));  Adds a subtle gradient */
 }
 
 .buttons:hover {
-    background-color: darkred; /* Optional: change background color on hover */
-    color: aliceblue;
+    background-color: darkred;
+    /*background: linear-gradient(135deg, darkred, crimson);  Reversed gradient on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Deepens the shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    color: white; /* Maintains text color consistency */
 }
+
+.buttons:active {
+    background-color: firebrick; /* Darker color on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+    transform: translateY(0); /* Reset lift effect */
+}
+
+
 
 /* input {
     padding: 10px; 
