@@ -1,0 +1,27 @@
+
+
+.careers-about-container {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

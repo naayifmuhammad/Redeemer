@@ -1,0 +1,65 @@
+/* openpositions.css */
+
+.open-positions-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .position-category {
+    margin-bottom: 20px;
+  }
+  
+  .position-category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .position-category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .position-category li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .position-category li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .position-category li span {
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .position-category li span:first-of-type {
+    flex-basis: 100px;
+    text-align: center;
+  }
+  
+  .position-category li span:last-of-type {
+    flex-basis: 150px;
+    text-align: right;
+  }
+  
