@@ -180,7 +180,7 @@
   "Features": [
     {
         "icon": "fa fa-code",
-        "title": "Dedicated Engg Teams",
+        "title": "Skilled Developers",
         "text": "Skilled teams focused on your projects, ensuring efficient and effective development."
     },
     {
@@ -196,7 +196,7 @@
     {
         "icon": "fa fa-comments",
         "title": "Transparency",
-        "text": "Clear communication & collaboration throughout the project to meet your expectations."
+        "text": "Clear communication and collaboration throughout the project to meet your expectations."
     }
 ]
 }
