@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className="home-container">
       <div className="home-left">
-        <h1>Biocalculus</h1>
+        <h1 className='text-left'>Biocalculus</h1>
         <h2>Biocalculus Holter Monitor Device /ELR Device</h2>
         <p>
         

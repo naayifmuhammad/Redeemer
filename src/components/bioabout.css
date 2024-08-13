@@ -1,38 +1,74 @@
+/* bioabout.css */
+
 .bioabout-container {
+    max-width: 1400px; /* Limits the width of the container */
+    margin: 0 auto; /* Centers the container */
     padding: 20px;
-    width: 100%;
-    max-width: 1200px;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Modern, clean font */
+    color: #333; /* Dark text color for readability */
+    justify-content: left;
+}
+
+h1, h2 {
+    color: #444; /* Slightly lighter text color for headings */
+    margin-bottom: 20px; /* Spacing below headings */
+    font-weight: bold; /* Makes headings stand out */
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 60px;
+    font-size: 3.5em; /* Larger font size for main heading */
+    text-align: left; /* Center align the main heading */
+    margin-top: 0; /* Remove top margin */
+
 }
 
 h2 {
-    font-size: 1.8em;
-    color: #000000;
-    margin-bottom: 20px;
+    font-size: 1.8em; /* Slightly smaller for subheadings */
+    border-bottom: 2px solid #ddd; /* Underline for separation */
+    padding-bottom: 10px; /* Padding below the heading */
+    margin-bottom: 20px; /* Spacing below subheadings */
 }
 
-.bio-intro, .specifications, .key-features, .how-it-works {
-    margin-bottom: 30px;
+.bio-intro {
+    margin-bottom: 40px; /* Extra spacing for introduction section */
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
+.bio-intro p {
+    line-height: 1.6; /* Improved readability */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #555; /* Slightly lighter color for paragraphs */
 }
 
-li {
-    margin-bottom: 10px;
+.specifications, .key-features, .how-it-works {
+    margin-bottom: 40px; /* Spacing between sections */
 }
 
-p {
-    line-height: 1.8;
-    color: #000000;
-    text-align: justify;
+.specifications ul, .key-features ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
 }
+
+.specifications li, .key-features li {
+    background-color: #f9f9f9; /* Light background for list items */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside list items */
+    margin-bottom: 10px; /* Space between list items */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.specifications li:hover, .key-features li:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.specifications strong, .key-features strong {
+    color: #333; /* Dark color for labels */
+}
+
+.how-it-works p {
+    line-height: 1.6; /* Improved readability */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #555; /* Slightly lighter color for paragraphs */
+}
+
