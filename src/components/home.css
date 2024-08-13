@@ -1,0 +1,47 @@
+/* Home Page Styles */
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .home-left {
+    flex-basis: 60%;
+    padding-right: 20px;
+  }
+  
+  .home-left h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-left h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .home-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .home-right {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .biocalculus-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

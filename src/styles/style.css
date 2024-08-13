@@ -1,0 +1,63 @@
+.buttons {
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default borders */
+    border-radius: 20px 0 20px 0; /* Round top-left and bottom-right corners */
+    cursor: pointer; /* Optional: changes the cursor to a pointer on hover */
+}
+
+.buttons:hover {
+    background-color: darkred; /* Optional: change background color on hover */
+}
+
+/* input {
+    padding: 10px; 
+    width: 200px;
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    outline: none;
+    font-size: 16px; 
+}
+
+input:focus {
+    border-color: crimson; 
+    box-shadow: 0 0 5px rgba(220, 20, 60, 0.5); 
+}
+
+textarea {
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px; 
+    width: 600px;
+} */
+
+.navbar-brand-text {
+    font-family: 'Times-new-roman', sans-serif; /* Replace with your custom font */
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #FC1D26; /* Example primary color */
+    background: linear-gradient(90deg, #FC1D26 0%, #8E195E 50%, #D91E25 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    text-transform: uppercase; /* If needed */
+    letter-spacing: 1px; /* Adjust spacing */
+}
+
+.navbar-subtext {
+    font-family: 'Times-new-roman', sans-serif; /* Same or different font */
+    font-size: 14px;
+    font-weight: bold;
+    color: #5D0F1D; /* Adjust color */
+    display: block; /* Keeps subtext below the main text */
+    text-transform: uppercase; /* If needed */
+    letter-spacing: 0.5px; /* Adjust spacing */
+    margin-top: -5px; /* Adjust to control spacing between texts */
+}
+
+.para {
+    text-align: justify;
+}
