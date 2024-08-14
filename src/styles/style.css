@@ -95,3 +95,16 @@ textarea {
     height: 60px;
     width: auto;
 }
+
+.about-us-download-row img{
+    border-radius: 10px;
+}
+
+.about-us-download-row p,img, a{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

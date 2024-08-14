@@ -7,17 +7,29 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-            <h2>Download our brochures for more information about our company and program.</h2>
-            <a href={Redeemer_Company_Brochure_Final} download="Redeemer_Company_Brochure_Final.pdf" className="btn buttons custom btn-lg">Download</a>
+          <div className="about-us-download-row d-flex flex-column justify-content-center align-items-center col-xs-12 col-md-6 text-center">
+            <img src="img/about.jpg" className="img-about" alt="" />
+            <p>
+              Unlock detailed insights into our services and offerings. Download
+              our comprehensive brochure now!
+            </p>
+            <a
+              href={Redeemer_Company_Brochure_Final}
+              download="Redeemer_Company_Brochure_Final.pdf"
+              className="btn buttons custom btn-lg"
+            >
+              Download
+            </a>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
-              <p className="para">{props.data ? props.data.paragraph : "loading..."}</p>
-              <p className="para">{props.data ? props.data.paragraph1 : "loading..."}</p>
+              <p className="para">
+                {props.data ? props.data.paragraph : "loading..."}
+              </p>
+              <p className="para">
+                {props.data ? props.data.paragraph1 : "loading..."}
+              </p>
               <h3>Why Choose Us?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -39,7 +51,6 @@ export const About = (props) => {
                   </ul>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
