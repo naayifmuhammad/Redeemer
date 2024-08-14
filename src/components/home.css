@@ -55,6 +55,10 @@
     height: auto;
     border-radius: 8px;
   }
+  .biocalculus-image:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s ease-in-out;
+  }
   
   .book-now-btn {
     padding: 12px 100px;
