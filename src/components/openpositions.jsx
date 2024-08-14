@@ -3,9 +3,9 @@ import './openpositions.css';
 
 export const OpenPositions = () => {
   return (
-    <div className="open-positions-container">
+    <div className="section open-positions-container">
       <h2>Open Positions</h2>
-      <p>ClaySys is proud to be an Equal Opportunity Employer!</p>
+      <p>Redeemer is proud to be an Equal Opportunity Employer!</p>
 
       <div className="position-category">
         <h3>PROJECT MANAGEMENT</h3>
