@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/style.css';
+import Redeemer_Company_Brochure_Final from '../image/Redeemer_Company_Brochure_Final.pdf';
 
 export const About = (props) => {
   return (
@@ -9,6 +10,8 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            Download our brochures for more information about our company and program.
+            <a href={Redeemer_Company_Brochure_Final} download="Redeemer_Company_Brochure_Final.pdf" className="btn btn-custom btn-lg">Download</a>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -36,6 +39,7 @@ export const About = (props) => {
                   </ul>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
