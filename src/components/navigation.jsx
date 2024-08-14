@@ -66,6 +66,11 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+            <li>
+              <a href="/biocalculus" className="page-scroll">
+              Biocalculus
+              </a>
+            </li>
           </ul>
         </div>
       </div>

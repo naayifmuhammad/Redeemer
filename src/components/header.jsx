@@ -12,13 +12,13 @@
     const slides = [
       {
         title: "Empowering Tomorrow's Innovation, Today",
-        paragraph: "Building Cutting-Edge Solutions with 10+ Years of Expertise.",
+        paragraph: "Building Cutting-Edge Solutions with 20+ Years of Expertise.",
         background: "../img/intro-bg.png",
         link: "#features" // Default link for the first slide
       },
       {
-        title: "Leading the Future with Innovation",
-        paragraph: "Driving Success through Innovative Technologies.",
+        title: "Pioneering Healthcare Through Technology",
+        paragraph: "Advancing Health Care with Cutting-Edge Innovations in Medical Technology.",
         background: "../img/cover.png",
         link: "/biocalculus" // This is now a route
       },

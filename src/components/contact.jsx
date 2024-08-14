@@ -47,7 +47,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Get a Quote/Book an Appointment</h2>
                 <p className="contact-para">
-                  Please fill out the form below to send us an email and we will
+                  Please fill out the form below to contact us and we will
                   get back to you as soon as possible.
                 </p>
               </div>
@@ -143,8 +143,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                 </ul>
