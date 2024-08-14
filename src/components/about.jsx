@@ -10,8 +10,8 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-            Download our brochures for more information about our company and program.
-            <a href={Redeemer_Company_Brochure_Final} download="Redeemer_Company_Brochure_Final.pdf" className="btn btn-custom btn-lg">Download</a>
+            <h2>Download our brochures for more information about our company and program.</h2>
+            <a href={Redeemer_Company_Brochure_Final} download="Redeemer_Company_Brochure_Final.pdf" className="btn buttons custom btn-lg">Download</a>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
