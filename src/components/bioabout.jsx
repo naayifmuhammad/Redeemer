@@ -1,19 +1,41 @@
-import React from 'react';
+import {useEffect,React} from 'react';
 import './bioabout.css';
 
 export const Bioabout = () => {
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.1 // Trigger when 10% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('loaded');
+          observer.unobserve(entry.target); // Stop observing once the class is added
+        }
+      });
+    }, options);
+
+    // Observe each section
+    document.querySelectorAll('.fade-in-element').forEach(section => {
+      observer.observe(section);
+    });
+  }, []);
+  
   return (
     <div className="bioabout-container">
       <h1>ABOUT</h1>
       <h2> Biocalculus Holter Monitor and ELR Device</h2>
 
-      <section className="bio-intro">
+      <section className="fade-in-element bio-intro">
         <p className='para'>
         Discover the advanced Biocalculus Holter Monitor and ELR (External Cardiac Loop Recorder) Device, specifically designed to provide continuous heart monitoring anywhere, anytime. Our innovative device, along with its user-friendly mobile application, is perfect for individuals who need regular monitoring for non-lethal cardiac arrhythmias. Whether you're at home or on the go, you can trust our technology to keep track of your heart's health.
         </p>
       </section>
 
-      <section className="specifications">
+      <section className="fade-in-element specifications">
         <h2>Device Specifications</h2>
         <ul>
           <li><strong>Connectivity:</strong> USB 2.0, Bluetooth V4.2</li>
@@ -33,7 +55,7 @@ export const Bioabout = () => {
         </ul>
       </section>
 
-      <section className="key-features">
+      <section className="fade-in-element key-features">
         <h2>Key Features</h2>
         <ul>
           <li>24-hour continuous heart monitoring</li>
@@ -43,7 +65,7 @@ export const Bioabout = () => {
         </ul>
       </section>
 
-      <section className="how-it-works">
+      <section className="fade-in-element how-it-works">
         <h2>How It Works</h2>
         <p className='para'>
         The Biocalculus Holter Monitor and ELR Device is a portable system created to monitor the electrical activity of the heart over extended periods. Using small adhesive electrodes attached to the chest, the device records continuous electrocardiography (ECG/EKG) data, which is then analyzed to detect any irregular heart rhythms or other cardiac issues.

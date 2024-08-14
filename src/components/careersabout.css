@@ -11,7 +11,7 @@
 
 
 .career-content-container{
-  margin: 100px 100px 0px 100px;
+  margin: 100px 5% 0px 5%;
   padding: 20px;
   background-color: #f8f9fa; /* Light background for readability */
   color: #343a40; /* Dark gray for professional look */
@@ -27,15 +27,7 @@
 .header-intro{
   position: relative;
   font-size: 1.1em;
-}
-.header-intro::before{
-  content: "";
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 70;
-  height: 0.5px;
-  background-color: grey;
+  margin: 2% 5%;
 }
 
 .section{
@@ -60,6 +52,7 @@
 .section-text-area p{
   color: black;
   font-size: 1.1em;
+  text-align: start;
 }
 
 .opportunity-list {

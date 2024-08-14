@@ -39,7 +39,7 @@ export const CareersAbout = () => {
         with us and help shape the future of technology.
       </p>
       <div className="section explore-opportunities row">
-        <div className="section-text-area col-md-6">
+        <div className="section-text-area col-xs-12 col-md-6 ">
           <h2>Explore Opportunities</h2>
           <p>
             Join Redeemer Technologies and become a pivotal part of our dynamic

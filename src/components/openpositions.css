@@ -1,7 +1,7 @@
 .open-positions-container {
   font-family: 'Roboto', sans-serif;
   padding: 50px;
-  margin: 100px 100px 50px 100px;
+  margin: 100px 5% 50px 5%;
   max-width: 1200px;
   background-color: #f8f9fa;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.042);
