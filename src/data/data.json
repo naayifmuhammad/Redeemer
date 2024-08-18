@@ -144,24 +144,19 @@
   ],
   "Team": [
     {
-      "img": "img/team/0.jpg",
-      "name": "ABC",
-      "job": "Director"
+      "img": "img/team/01.png",
+      "name": "Jais John",
+      "job": "Designation"
     },
     {
-      "img": "img/team/0.jpg",
-      "name": "ABC",
-      "job": "Senior Designer"
+      "img": "img/team/02.png",
+      "name": "Nikhil Prakash",
+      "job": "Designation"
     },
     {
       "img": "img/team/3.jpg",
       "name": "ABC",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/0.jpg",
-      "name": "ABC",
-      "job": "Project Manager"
+      "job": "Designation"
     }
   ],
   "Contact": {

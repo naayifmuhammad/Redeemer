@@ -472,11 +472,29 @@ header .intro-text {
 #team {
   padding: 100px 0;
 }
+
 #team h4 {
   margin: 5px 0;
 }
 #team .team-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#team .img-container {
   width: 240px;
+  height: 240px;
+  background-color: #993b3b; /* Set your preferred background color here */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#team .row {
+  justify-content: center;
 }
 #team .thumbnail {
   background: transparent;
@@ -486,6 +504,7 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
