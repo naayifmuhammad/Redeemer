@@ -146,17 +146,17 @@
     {
       "img": "img/team/01.png",
       "name": "Jais John",
-      "job": "Designation"
+      "job": ""
     },
     {
       "img": "img/team/02.png",
       "name": "Nikhil Prakash",
-      "job": "Designation"
+      "job": ""
     },
     {
-      "img": "img/team/3.jpg",
-      "name": "ABC",
-      "job": "Designation"
+      "img": "img/team/03.png",
+      "name": "Sobin Joy",
+      "job": ""
     }
   ],
   "Contact": {
