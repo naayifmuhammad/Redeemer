@@ -7,16 +7,17 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p style={{ textAlign: 'center' }}>
-  Leading Our Mission to Transform Your Digital Future
-</p>
+            Leading Our Mission to Transform Your Digital Future
+          </p>
         </div>
-        <div id="row">
+        <div id="team-grid">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="team-member">
                   <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
+                    <div className="img-container">
+                      <img src={d.img} alt="..." className="team-img" />
+                    </div>
                     <div className="caption">
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>
