@@ -8,7 +8,7 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="about-us-download-row d-flex flex-column justify-content-center align-items-center col-xs-12 col-md-6 text-center">
-            <img src="img/about.jpg" className="img-about" alt="" />
+            <img src="img/about.jpg" className="img-about" alt="" /> <br/>
             <p>
               Unlock detailed insights into our services and offerings. Download
               our comprehensive brochure now!
