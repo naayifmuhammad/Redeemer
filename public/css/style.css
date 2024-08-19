@@ -471,14 +471,14 @@ header .intro-text {
 /* Adjust for screens smaller than 1200px */
 @media (max-width: 1200px) {
   #team-grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
   }
 }
 
 /* Adjust for screens smaller than 768px */
 @media (max-width: 768px) {
   #team-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile screens */
+    grid-template-columns: repeat(1, 1fr); /* 1 columns for mobile screens */
   }
 }
 
