@@ -323,7 +323,9 @@ header .intro-text {
   padding-right: 8px;
 } 
 #about img {
-  width: 520px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
