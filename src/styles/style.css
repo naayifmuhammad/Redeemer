@@ -51,8 +51,39 @@ textarea {
     width: 600px;
 } */
 
-
-
+/* Default styles for the navigation */
+.navbar-toggle {
+    display: none; /* Hide the toggle button by default */
+    align-items: right;
+  }
+  
+  @media (max-width: 995px) {
+    /* Show the toggle button when screen width is less than 1100px */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 10px; /* Adjust the top position as needed */
+        margin-right: 15px; /* Add some margin to align with other elements */
+    }
+  
+    /* Hide the navigation items (li elements) when the screen width is less than 1100px */
+    .navbar-collapse.collapse {
+      display: none !important;
+    }
+  
+    .navbar-collapse.collapse.in {
+      display: block !important;
+    }
+    
+    /* Ensure the nav items are displayed when the toggle is clicked */
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
 
 .navbar-brand-text {
     font-family: 'Times-new-roman', sans-serif; /* Replace with your custom font */
