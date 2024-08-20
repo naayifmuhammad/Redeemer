@@ -25,9 +25,11 @@ export const Bioabout = () => {
   }, []);
   
   return (
-    <div className="bioabout-container">
-      <h1>ABOUT</h1>
-      <h2> Biocalculus Holter Monitor and ELR Device</h2>
+    <div className="bioabout-container mt-5 d-flex row">
+      <div className="heading-container d-flex justify-content-left row-12">
+        <h1>ABOUT</h1>
+        <h2> Biocalculus Holter Monitor and ELR Device</h2>
+      </div>
 
       <section className="fade-in-element bio-intro">
         <p className='para'>
@@ -38,30 +40,31 @@ export const Bioabout = () => {
       <section className="fade-in-element specifications">
         <h2>Device Specifications</h2>
         <ul>
-          <li><strong>Connectivity:</strong> USB 2.0, Bluetooth V4.2</li>
-          <li><strong>ECG Channel:</strong> Single Channel</li>
-          <li><strong>On-board Memory:</strong> 4 Days (NAND)</li>
-          <li><strong>Recording Format:</strong> Continuous</li>
-          <li><strong>Frequency Response:</strong> 0.5Hz to 40Hz</li>
-          <li><strong>CMRR:</strong> 768</li>
-          <li><strong>Input Impedance:</strong> +100 MOhm</li>
-          <li><strong>A/D Sampling Rate:</strong> 256 Samples/second</li>
-          <li><strong>Resolution:</strong> 16 bit</li>
-          <li><strong>Battery Life:</strong> Up to 4 days of continuous usage</li>
-          <li><strong>Battery Type:</strong> Rechargeable Lithium-Polymer</li>
-          <li><strong>Dimensions:</strong> 84 x 28 x 10 mm</li>
-          <li><strong>Weight:</strong> 20 gm including batteries</li>
-          <li><strong>Compatibility:</strong> Android operating systems</li>
+          <li><i className="fa fa-wifi"></i> <strong>Connectivity:</strong> USB 2.0, Bluetooth V4.2</li>
+          <li><i className="fa fa-heartbeat"></i> <strong>ECG Channel:</strong> Single Channel</li>
+          <li><i className="fa fa-hdd-o"></i> <strong>On-board Memory:</strong> 4 Days (NAND)</li>
+          <li><i className="fa fa-play-circle"></i> <strong>Recording Format:</strong> Continuous</li>
+          <li><i className="fa fa-wave-square"></i> <strong>Frequency Response:</strong> 0.5Hz to 40Hz</li>
+          <li><i className="fa fa-balance-scale"></i> <strong>CMRR:</strong> 768</li>
+          <li><i className="fa fa-cog"></i> <strong>Input Impedance:</strong> +100 MOhm</li>
+          <li><i className="fa fa-chart-line"></i> <strong>A/D Sampling Rate:</strong> 256 Samples/second</li>
+          <li><i className="fa fa-ruler-combined"></i> <strong>Resolution:</strong> 16 bit</li>
+          <li><i className="fa fa-battery-half"></i> <strong>Battery Life:</strong> Up to 4 days of continuous usage</li>
+          <li><i className="fa fa-battery-full"></i> <strong>Battery Type:</strong> Rechargeable Lithium-Polymer</li>
+          <li><i className="fa fa-arrows-alt"></i> <strong>Dimensions:</strong> 84 x 28 x 10 mm</li>
+          <li><i className="fa fa-weight"></i> <strong>Weight:</strong> 20 gm including batteries</li>
+          <li><i className="fa fa-tablet"></i> <strong>Compatibility:</strong> Android operating systems</li>
         </ul>
+
       </section>
 
       <section className="fade-in-element key-features">
         <h2>Key Features</h2>
         <ul>
-          <li>24-hour continuous heart monitoring</li>
-          <li>Wireless functionality for increased convenience</li>
-          <li>ELR technology for enhanced accuracy</li>
-          <li>Suitable for home use with various monitoring durations</li>
+          <li><i className="fa fa-clock-o"></i> 24-hour continuous heart monitoring</li>
+          <li><i className="fa fa-wifi"></i> Wireless functionality for increased convenience</li>
+          <li><i className="fa fa-heartbeat"></i> ELR technology for enhanced accuracy</li>
+          <li><i className="fa fa-home"></i> Suitable for home use with various monitoring durations</li>
         </ul>
       </section>
 
