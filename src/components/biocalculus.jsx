@@ -5,6 +5,7 @@ import { Home } from './home';
 import { Contact } from './contact'; 
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
+import './biocalculus.css'
 
 import { Bioabout } from './bioabout';
 
@@ -21,7 +22,7 @@ export const BioCalculus = () => {
   }, []);
 
   return (
-    <div>
+    <div className="main-body">
       <Navigation />
       <Home />
       <Bioabout />
