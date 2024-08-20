@@ -106,7 +106,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p className="contact-para">
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fas fa-map-marker-alt"></i> Address
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -114,7 +114,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p className="contact-para">
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fas fa-phone-alt"></i> Phone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -122,32 +122,33 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p className="contact-para">
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fas fa-envelope"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
           </div>
+            
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.linkedin : "/"}>
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
+              <ul>
+                <li>
+                  <a href={props.data ? props.data.facebook : "/"} target="_blank">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.twitter : "/"} target="_blank">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.linkedin : "/"} target="_blank">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
               </div>
             </div>
           </div>

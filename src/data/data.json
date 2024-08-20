@@ -65,36 +65,37 @@
   ],
   "Services": [
     {
-        "icon": "fa fa-desktop",
+        "icon": "fas fa-desktop",
         "name": "Custom Software Development",
         "text": "Tailored software solutions that are robust, scalable, and aligned with your business goals."
     },
     {
-        "icon": "fa fa-globe",
+        "icon": "fas fa-globe",
         "name": "Web Application Development",
         "text": "Dynamic, secure, and high-performing web apps for a seamless user experience."
     },
     {
-        "icon": "fa fa-mobile",
+        "icon": "fas fa-mobile-alt",
         "name": "Mobile Application Development",
         "text": "Custom mobile apps for iOS and Android designed for user engagement and business support."
     },
     {
-        "icon": "fa fa-bullhorn",
+        "icon": "fas fa-bullhorn",
         "name": "Digital Marketing",
         "text": "Boost your online presence with targeted SEO, social media, and content marketing strategies."
     },
     {
-        "icon": "fa fa-cloud-upload",
+        "icon": "fas fa-cloud-upload-alt",
         "name": "Deployment",
         "text": "Smooth transition from development to production with minimal downtime and efficient server setup."
     },
     {
-        "icon": "fa fa-heartbeat",
+        "icon": "fas fa-heartbeat",
         "name": "Healthcare",
         "text": "Innovative solutions for patient management, telemedicine, and health monitoring to enhance care."
     }
 ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/02.png",
